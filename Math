@@ -1,0 +1,11 @@
+print("Do you want to find volume or area?")
+level1=input("Answer:")
+if (level1=="volume"):
+  volumeopps=input("Do you want to find the volume of the cone,cube,or cylinder?")
+  #volume ofa cube
+  if volumeopps=="cube":
+      print("please type the length,width,and height of the cube")
+      length = int(input("length "))
+      height = int(input("height "))
+      width = int(input("width "))
+      print(length*height*width)
