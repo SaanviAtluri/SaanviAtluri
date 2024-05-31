@@ -1,0 +1,158 @@
+# Biology
+
+def biology():
+  point=0
+  print("Do plants photosythesise? ")
+  level1=input("Answer:")
+  if (level1=="Yes"):
+        print("that is correct")
+        point=point+1
+        print(point)
+  else:
+        print("Sorry that is wrong")
+  
+  print("Do echinoderms have a complete coelom?")
+  level2=input("Answer:")
+  if (level2=="Yes"):
+     print("that is correct")
+     point=point+1
+     print(point)
+  else:
+      print("Sorry that is wrong")
+      
+    
+    
+  print("Are lipids polymers?")
+  level3=input("Answer:")
+  if (level3=="No"):
+    print("that is correct")
+    point=point+1
+    print(point)
+  else:
+    print("Sorry that is wrong")
+  
+  print("What is the monomer unit of proteins?")
+  level4=input("Answer:")
+  if (level4=="amino acids"):
+    print("that is correct")
+    point=point+1
+    print(point)
+  else:
+    print("Sorry that is wrong")
+  
+  print("Do humans have cellular respiration?")
+  level5=input("Answer:")
+  if (level5=="yes"):
+      print("that is correct")
+      point=point+1
+  else:
+      print("Sorry that is wrong")
+      print(point+"number of points")
+  
+def math():
+#Math
+  point=0
+  print("3x+4=2x-2")
+  level4=input("Answer:")
+  if (level4=="-6"):
+    print("that is correct")
+    point=point+1
+  else:
+    
+    print("Sorry that is wrong")
+  
+  print("What is the square root of 49?")
+  level5=input("Answer:")
+  if (level5=="7"):
+    print("that is correct")
+    point=point+1
+  else:
+    print("Sorry that is wrong")
+    
+  print("What is -(-|-3|)?")
+  level6=input("Answer:")
+  if (level6=="3"):
+    print("that is correct")
+    point=point+1
+  else:
+    print("Sorry that is wrong")
+    
+  print("What is the square root of 64?")
+  level7=input("Answer:")
+  if (level7=="8"):
+    print("that is correct")
+    point=point+1
+  else:
+   print("Sorry that is wrong")
+    
+  print("What is the square root of 81?")
+  level8=input("Answer:")
+  if (level8=="9"):
+    print("that is correct")
+    point=point+1
+  else:
+    print("Sorry that is wrong")
+    
+  print(point+"number of points")
+
+
+
+#Chem
+
+def chem():
+  point=0
+  print("Is NaO a Covalent Bond?")
+  level9=input("Answer:")
+  if (level9=="Yes"):
+    print("that is correct")
+    point=point+1
+  else:
+    print("Sorry that is wrong")
+    
+  print("What is Avagadro's Number?")
+  level10=input("Answer:")
+  if (level10=="6.023x10^23"):
+    print("that is correct")
+    point=point+1
+  else:
+    print("Sorry that is wrong")
+  
+  print("How many valence electrons are in Oxygen?")
+  level11=input("Answer:")
+  if (level11=="6"):
+    print("that is correct")
+    point=point+1
+  else:
+    print("Sorry that is wrong")
+  
+  print("How many valence electrons are in Calcium?")
+  level12=input("Answer:")
+  if (level12=="2"):
+    print("that is correct")
+    point=point+1
+  else:
+    print("Sorry that is wrong")
+  
+  print("How many valence electrons are in Nitrogen?")
+  level13=input("Answer:")
+  if (level13=="5"):
+    print("that is correct")
+    point=point+1
+  else:
+    print("Sorry that is wrong")
+  
+  print(point+"number of points")
+
+subject="Biology"
+while subject=="Biology" or subject=="Math" or subject=="Chemistry":
+  print("Do you want to do Biology, Math, Chemistry or quit.")
+  subject=input("Answer:")
+  if (subject=="Biology"):
+    biology()
+  if (subject=="Math"):
+    math()
+  if (subject=="Chemistry"):
+   chem()
+
+    
+
